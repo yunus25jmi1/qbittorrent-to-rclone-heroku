@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:latest
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt update; apt upgrade -y
 ENV PORT=8880
